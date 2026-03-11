@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dgSpecHash": "JWVQmFyQRlQ=",
+  "success": true,
+  "projectFilePath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+  "expectedPackageFiles": [
+    "/Users/fajarfirdaus/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/eto.forms/2.10.2/eto.forms.2.10.2.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/eto.platform.wpf/2.10.2/eto.platform.wpf.2.10.2.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/extended.wpf.toolkit/3.6.0/extended.wpf.toolkit.3.6.0.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft-windowsapicodepack-core/1.1.4/microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft-windowsapicodepack-shell/1.1.4/microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/system.text.json/10.0.2/system.text.json.10.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Eto.Platform.Wpf 2.10.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "libraryId": "Eto.Platform.Wpf",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Extended.Wpf.Toolkit 3.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

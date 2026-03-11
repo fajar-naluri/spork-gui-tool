@@ -1,0 +1,482 @@
+{
+  "version": 3,
+  "targets": {
+    "net10.0": {
+      "CsvHelper/30.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Eto.Forms/2.10.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Eto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Eto.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Eto.Platform.Wpf/2.10.2": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "2.10.2",
+          "Extended.Wpf.Toolkit": "3.6.0",
+          "Microsoft-WindowsAPICodePack-Shell": "1.1.4"
+        },
+        "compile": {
+          "lib/net462/Eto.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Eto.Wpf.dll": {}
+        }
+      },
+      "Extended.Wpf.Toolkit/3.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.4"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "System.Text.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "SporkGui/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "Eto.Forms": "2.10.2",
+          "System.Text.Json": "10.0.2"
+        },
+        "compile": {
+          "bin/placeholder/SporkGui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SporkGui.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvHelper/30.0.1": {
+      "sha512": "rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "type": "package",
+      "path": "csvhelper/30.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.30.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "Eto.Forms/2.10.2": {
+      "sha512": "SFm7hgqhAnQ3sa3ohWedQT96wzLfScH3r1uopcLq2kBgGrP4yVd28D2/rWKSpb5hUmBRsm864UNkxjKSZzND8w==",
+      "type": "package",
+      "path": "eto.forms/2.10.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/Eto.Forms.targets",
+        "eto.forms.2.10.2.nupkg.sha512",
+        "eto.forms.nuspec",
+        "lib/net6.0/Eto.dll",
+        "lib/net6.0/Eto.xml",
+        "lib/net8.0/Eto.dll",
+        "lib/net8.0/Eto.xml",
+        "lib/netstandard2.0/Eto.dll",
+        "lib/netstandard2.0/Eto.xml",
+        "sdk/Sdk.props",
+        "sdk/Sdk.targets"
+      ]
+    },
+    "Eto.Platform.Wpf/2.10.2": {
+      "sha512": "7DBMUHIYtt2aMfXe8B1EjWbZImkIsLp6lIkv/MppYNh7TCnCnxmMpIYy88VFiejoi0kN5FS272wxYCNtEVKKyQ==",
+      "type": "package",
+      "path": "eto.platform.wpf/2.10.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "eto.platform.wpf.2.10.2.nupkg.sha512",
+        "eto.platform.wpf.nuspec",
+        "lib/net462/Eto.Wpf.dll",
+        "lib/net6.0-windows7.0/Eto.Wpf.dll"
+      ]
+    },
+    "Extended.Wpf.Toolkit/3.6.0": {
+      "sha512": "flfPS2rtbCCXJv7m43MXBJWaPN0RsVRQn3MZO2VmMjs4pOHzL7WnsaSXbs0OHTLj71SA/+T4hdZC8f4FhvJSkA==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/3.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extended.wpf.toolkit.3.6.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+      "sha512": "gsEStalyKPTR5/HKyAHYvIoDZTGUTUgIBS1eeGvkjWgDYB7f5aSBFAAJfxhhDsOGDjLs6O0uzw1H0EWYWZGDmg==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-core/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.dll",
+        "lib/net452/Microsoft.WindowsAPICodePack.xml",
+        "lib/net462/Microsoft.WindowsAPICodePack.dll",
+        "lib/net462/Microsoft.WindowsAPICodePack.xml",
+        "lib/net472/Microsoft.WindowsAPICodePack.dll",
+        "lib/net472/Microsoft.WindowsAPICodePack.xml",
+        "lib/net48/Microsoft.WindowsAPICodePack.dll",
+        "lib/net48/Microsoft.WindowsAPICodePack.xml",
+        "lib/netcoreapp3.0/Microsoft.WindowsAPICodePack.dll",
+        "lib/netcoreapp3.0/Microsoft.WindowsAPICodePack.xml",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.xml",
+        "microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+        "microsoft-windowsapicodepack-core.nuspec"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+      "sha512": "EtoEx9Fx3ZGW//sni9TB1vuBvzXIlyG8E2KNaX7bqV240aiU8RP+NmDHd1ox0YKbJDMxq7AWSI2jPhpLMYXKyw==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-shell/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net462/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net462/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net472/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net472/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/net48/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/net48/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/netcoreapp3.0/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/netcoreapp3.0/Microsoft.WindowsAPICodePack.Shell.xml",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll",
+        "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.xml",
+        "microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512",
+        "microsoft-windowsapicodepack-shell.nuspec"
+      ]
+    },
+    "System.Text.Json/10.0.2": {
+      "sha512": "zy8ey7I16G9neZ6uzxrnYwS7pidElzN8XarsBjGu7lE2m7afTKMEe18KbY3ZSmh/z/bR40oxjd6hlUcmOEaMHw==",
+      "type": "package",
+      "path": "system.text.json/10.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.4/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.4/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/net461/System.Text.Json.targets",
+        "buildTransitive/net462/System.Text.Json.targets",
+        "buildTransitive/net8.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net10.0/System.Text.Json.dll",
+        "lib/net10.0/System.Text.Json.xml",
+        "lib/net462/System.Text.Json.dll",
+        "lib/net462/System.Text.Json.xml",
+        "lib/net8.0/System.Text.Json.dll",
+        "lib/net8.0/System.Text.Json.xml",
+        "lib/net9.0/System.Text.Json.dll",
+        "lib/net9.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.10.0.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "SporkGui/1.0.0": {
+      "type": "project",
+      "path": "../SporkGui/SporkGui.csproj",
+      "msbuildProject": "../SporkGui/SporkGui.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net10.0": [
+      "Eto.Platform.Wpf >= 2.10.2",
+      "SporkGui >= 1.0.0",
+      "System.Text.Json >= 10.0.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/fajarfirdaus/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "projectName": "SporkGui.Wpf",
+      "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+      "packagesPath": "/Users/fajarfirdaus/.nuget/packages/",
+      "outputPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/fajarfirdaus/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net10.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "projectReferences": {
+            "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj": {
+              "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net10.0": {
+        "targetAlias": "net10.0",
+        "dependencies": {
+          "Eto.Platform.Wpf": {
+            "target": "Package",
+            "version": "[2.10.2, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[10.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Eto.Platform.Wpf 2.10.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Eto.Platform.Wpf",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Extended.Wpf.Toolkit 3.6.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

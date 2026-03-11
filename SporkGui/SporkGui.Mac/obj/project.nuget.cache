@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "uoMKYqY+310=",
+  "success": true,
+  "projectFilePath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Mac/SporkGui.Mac.csproj",
+  "expectedPackageFiles": [
+    "/Users/fajarfirdaus/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/eto.forms/2.10.2/eto.forms.2.10.2.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/eto.platform.mac64/2.10.2/eto.platform.mac64.2.10.2.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/system.text.json/10.0.2/system.text.json.10.0.2.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/10.0.1/microsoft.netcore.app.runtime.osx-x64.10.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft.netcore.app.runtime.osx-arm64/10.0.1/microsoft.netcore.app.runtime.osx-arm64.10.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/10.0.1/microsoft.aspnetcore.app.runtime.osx-x64.10.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-arm64/10.0.1/microsoft.aspnetcore.app.runtime.osx-arm64.10.0.1.nupkg.sha512",
+    "/Users/fajarfirdaus/.nuget/packages/microsoft.netcore.app.host.osx-x64/10.0.1/microsoft.netcore.app.host.osx-x64.10.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Mac/SporkGui.Mac.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Mac/SporkGui.Mac.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
