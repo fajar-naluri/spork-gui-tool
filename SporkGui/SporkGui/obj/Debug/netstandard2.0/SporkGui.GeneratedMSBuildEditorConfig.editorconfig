@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = SporkGui
+build_property.ProjectDir = /Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

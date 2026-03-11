@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj": {}
+  },
+  "projects": {
+    "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+        "projectName": "SporkGui.Wpf",
+        "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/SporkGui.Wpf.csproj",
+        "packagesPath": "/Users/fajarfirdaus/.nuget/packages/",
+        "outputPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui.Wpf/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fajarfirdaus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net10.0": {
+            "targetAlias": "net10.0",
+            "projectReferences": {
+              "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj": {
+                "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "dependencies": {
+            "Eto.Platform.Wpf": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj",
+        "projectName": "SporkGui",
+        "projectPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/SporkGui.csproj",
+        "packagesPath": "/Users/fajarfirdaus/.nuget/packages/",
+        "outputPath": "/Users/fajarfirdaus/code/spork-migration/spork_gui/SporkGui/SporkGui/SporkGui/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fajarfirdaus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Eto.Forms": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

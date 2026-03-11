@@ -1,0 +1,2 @@
+/Users/fajarfirdaus/code/spork_gui/SporkGui/SporkGui/SporkGui.Mac/obj/Debug/net10.0/macbuild/publish/osx-arm64/SporkGui.pdb
+/Users/fajarfirdaus/code/spork_gui/SporkGui/SporkGui/SporkGui.Mac/obj/Debug/net10.0/macbuild/publish/osx-arm64/SporkGui.Mac
